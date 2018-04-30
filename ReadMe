@@ -1,0 +1,9 @@
+Class MsearchTree is a M-ary tree,a rooted tree in which each node has no more than k children. 
+Every node contains a maximum of M keys for search and M+1 pointers to children nodes. 
+The class can copy a Tree,can be added to another M-ary tree, it can also insert or remove a key, it can check if a key already exists within a M-ary tree, it can traverse along the tree. It can also write its keys on an output in a sorted array,aslo the class can erase the tree. (for example  ((8,17),30,(35,42,(48),56),60,90,(95))) 
+
+Class TreeNode 
+The class contains M keys used for search, and M+1 pointers to other tree nodes (TreeNode*).
+It can add a new key, it can check if it is full or empty, it can return a vector of all keys it contains,
+it can get the key with the smallest value, and get a key with the largest value. It can check if a treenode contains a key.
+It can insert a subtree, or remove a key. It maintains it structure, while removing an individual node.
